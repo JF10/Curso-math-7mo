@@ -27,12 +27,16 @@ a {
 
 .hero h1 {
 	font-size: 80px;
+	margin-bottom: 40px;
 }
 
 .hero p {
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #113CFC;
+	font-size: 20px;
+	text-align: justify;
+	color: #353535;
+	max-width: 600px;
+	line-height: 38px;
+	margin-bottom: 40px;
 }
 
 nav {
