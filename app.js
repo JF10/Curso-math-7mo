@@ -1,6 +1,7 @@
 const menu = document.getElementById('menu');
 const indicador = document.getElementById('indicador');
 const secciones = document.querySelectorAll('.seccion');
+const imagen = document.getElementById('image');
 
 let tamañoIndicador = menu.querySelector('a').offsetWidth;
 indicador.style.width = tamañoIndicador + 'px';
