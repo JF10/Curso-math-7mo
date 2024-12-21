@@ -52,31 +52,31 @@ const datos = [
         id: 1,
         titulo: "Egipto",
         imagen: "img/num_egypt.png",
-        texto: "Los sistemas de numeración del antiguo Egipto son un fascinante ejemplo..."
+        texto: "El sistema de numeración egipcio es un sistema no posicional utilizado por los antiguos egipcios. Está basado en la representación de números mediante símbolos jeroglíficos, donde cada símbolo corresponde a una potencia de 10."
     },
 	{
         id: 2,
         titulo: "La India",
         imagen: "img/num_indian.png",
-        texto: "El sistema de numeración indio fue el precursor del sistema decimal moderno..."
+        texto: "El sistema de numeración de la antigua India es la base del sistema numérico que usamos hoy en día. Se caracteriza por ser un sistema posicional decimal, que permitió importantes avances en matemáticas y cálculo."
     },
     {
         id: 3,
         titulo: "Babilonia",
         imagen: "img/num_babylonian.png",
-        texto: "El sistema de numeración babilónico era sexagesimal, es decir, basado en el número 60..."
+        texto: "El sistema de numeración babilonio es uno de los sistemas más antiguos, utilizado en Mesopotamia desde aproximadamente el 2000 a.C. Se caracteriza por ser un sistema sexagesimal (base 60), aunque con algunos aspectos posicionales similares a los sistemas modernos."
     },
     {
         id: 4,
         titulo: "Los Mayas",
         imagen: "img/num_maya.png",
-        texto: "El sistema de numeración maya era vigesimal, basado en el número 20..."
+        texto: "El sistema numérico maya fue un sistema vigesimal (base 20) que combinaba características posicionales con un uso innovador de símbolos. Fue utilizado en Mesoamérica por los mayas para fines astronómicos, calendáricos y comerciales."
     },
     {
         id: 5,
         titulo: "Roma",
         imagen: "img/num_roman.png",
-        texto: "El sistema de numeración romano se originó en la antigua Roma..."
+        texto: "El sistema numérico romano fue utilizado en la Antigua Roma y se basa en un conjunto de letras del alfabeto latino que representan valores específicos. Es un sistema no posicional y aditivo, aunque también incluye elementos de sustracción."
     },
 ];
 
