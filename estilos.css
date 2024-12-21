@@ -144,21 +144,6 @@ nav .indicador {
 
 }
 
-
-
-@media screen and (max-width: 800px) {
-	nav a {
-		font-size: 14px;
-		padding: 5px;
-	}
-}
-
-@media screen and (max-width: 450px) {
-	nav a {
-		font-size: 12px;
-	}
-}
-
 #contenedor-secciones-dinamicas {
 	display: flex;
 	flex-direction: column;
@@ -171,4 +156,99 @@ nav .indicador {
 	width: 400px;
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+@media screen and (max-width: 800px) {
+	/* Ajustes generales */
+	body {
+		font-size: 14px; /* Reduce el tamaño de la fuente */
+	}
+
+	.hero {
+		padding: 20px;
+		text-align: center; /* Centra todo el contenido */
+	}
+
+	.hero h1 {
+		font-size: 40px; /* Reduce el tamaño del encabezado */
+		margin-bottom: 20px;
+	}
+
+	.hero h2 {
+		font-size: 24px; /* Ajusta el subtítulo */
+		margin-bottom: 20px;
+	}
+
+	.hero p {
+		font-size: 16px; /* Reduce el tamaño del texto */
+		line-height: 28px;
+	}
+
+	/* Navegación */
+	nav {
+		flex-direction: column; /* Apila los enlaces en columnas */
+		height: auto;
+	}
+
+	nav a {
+		padding: 10px; /* Ajusta el espacio interno */
+		font-size: 14px; /* Reduce el tamaño de los enlaces */
+	}
+
+	nav .indicador {
+		height: 5px; /* Reduce el grosor del indicador */
+	}
+
+	/* Secciones */
+	.seccion {
+		width: 100%; /* Ocupa todo el ancho disponible */
+		padding: 20px; /* Reduce el espacio interno */
+	}
+
+	.seccion .card {
+		padding: 20px; /* Reduce el espacio interno del card */
+		box-shadow: rgba(149, 157, 165, 0.1) 0px 4px 12px; /* Reduce la sombra */
+	}
+
+	.seccion h1 {
+		font-size: 32px; /* Reduce el tamaño del título */
+	}
+
+	.seccion p {
+		font-size: 14px; /* Reduce el tamaño del texto */
+		line-height: 24px;
+	}
+
+	.seccion img {
+		width: 100%; /* La imagen ocupa todo el ancho disponible */
+		height: auto; /* Mantiene la proporción */
+	}
+
+	/* Botón Volver */
+	#volver {
+		font-size: 14px; /* Ajusta el tamaño de la fuente */
+		padding: 8px 16px; /* Reduce el padding */
+		margin: 10px auto; /* Centra el botón */
+	}
+}
+
+@media screen and (max-width: 500px) {
+	/* Ajustes para pantallas aún más pequeñas */
+	.hero h1 {
+		font-size: 28px; /* Reduce más el encabezado */
+	}
+
+	.hero p {
+		font-size: 12px; /* Reduce el tamaño del texto */
+	}
+
+	nav a {
+		font-size: 12px; /* Reduce el tamaño de los enlaces */
+		padding: 8px;
+	}
+
+	#volver {
+		font-size: 12px; /* Ajusta el tamaño del texto del botón */
+		padding: 6px 12px; /* Reduce más el padding */
+	}
 }
