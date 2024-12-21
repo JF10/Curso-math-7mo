@@ -115,6 +115,10 @@ nav .indicador {
 	padding: 40px;
 	border-radius: 5px;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .seccion h1 {
@@ -127,12 +131,17 @@ nav .indicador {
 	margin-bottom: 40px;
 	color: #494949;
 	font-size: 20px;
+	text-align: justify;
 }
 
 .seccion img {
 	width: 100%;
 	vertical-align: top;
 	margin-bottom: 20px;
+	height: auto;
+	width: 300px;
+	cursor: pointer;
+
 }
 
 
@@ -148,4 +157,18 @@ nav .indicador {
 	nav a {
 		font-size: 12px;
 	}
+}
+
+#contenedor-secciones-dinamicas {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#contenedor-secciones-dinamicas img {
+	height: auto;
+	width: 400px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
